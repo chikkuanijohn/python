@@ -1,0 +1,8 @@
+name = str(input("Enter your name"))
+roll_no = int(input("Enter roll_no"))
+age = int(input("Enter age"))
+weight = float(input("Enter weight"))
+print("name:",name)
+print("roll_no:",roll_no)
+print("age:",age)
+print("weight:",weight)
