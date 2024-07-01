@@ -4,6 +4,3 @@ rev=0
 for i in (num):
     rev=i+rev
     print(rev)
-
-
-
