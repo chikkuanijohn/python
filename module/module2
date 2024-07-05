@@ -1,0 +1,41 @@
+# import pythonfile
+# pythonfile.fun() 
+
+# import pythonfile as p
+# p.fun()
+
+# from pythonfile import fun
+ #fun()
+
+# from pythonfile import*
+# fun()
+
+# from pythonfile import*
+# fun(10,20)
+
+# from pythonfile import fun
+# fun(10,20)
+
+#import pythonfile as p
+#p.fun(20,10)
+
+#import pythonfile
+#pythonfile.fun(20,20)
+
+#import pythonfile
+#pythonfile.fun1(10,20)
+
+#import pythonfile as p
+#p.fun1(10,20)
+
+#from pythonfile import fun1
+#fun1(10,20)
+
+#import pythonfile as p
+#p.fun2(1,2,3,4,5)
+
+#import pythonfile as p
+#p.fun3(name='anu',age=22)
+
+from pythonfile4 import fun4
+fun4(name='anu',age=22)
