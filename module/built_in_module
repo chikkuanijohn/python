@@ -1,0 +1,16 @@
+'''import math
+print(math.factorial(5))
+print(math.floor(5.8))
+print(math.ceil(5.8))
+print(math.sqrt(64))'''
+
+'''import datetime
+print(datetime.datetime.now())'''
+
+f=open("file4.txt","x")
+f.write("123"+"abcdefgh")
+f=open("python/module/filehandling/file1.txt","x")
+f.write("123"+"abcdefgh")
+f=open("python/module/handling/file4.txt","w")
+f.write("abcdefgh")
+
