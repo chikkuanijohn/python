@@ -1,5 +1,3 @@
-
-#appendmethod
 '''f=open("new.txt","a")
 f.write("python pgrm")'''
 
@@ -58,7 +56,7 @@ for i in range(l):
     print(word)
 print(letters)'''
 
-f=open("new.txt","r")
+'''f=open("new.txt","r")
 l=len(f.readlines())
 l=l
 f.seek(0)
@@ -79,4 +77,4 @@ for i in range(l):
     print(word)
     print(letters)
     print(capital)
-    print(letters-capital)
+    print(letters-capital)'''
