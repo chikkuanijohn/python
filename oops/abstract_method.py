@@ -74,12 +74,68 @@
 # print(re.search('d.?',a))
 
 
-a='welcome'
-import re
+# a='welcome'
+# import re
 # print(re.search('e.'a))
 # print(re.search('w*',a))
 # print(re.search('l.+',a))
 # print(re.search('c.?',a))
+
+# import re
+# a="abcd"
+# re.search('[a-z]',a)
+# print(re.search('[a-z]',a))
+# re.search('[a-z][0-9]',a)
+# print(re.search('[a-z][0-9]',a))
+# a="abcd123"
+# re.search('[a-z][0-9]',a)
+# print(re.search('[a-z][0-9]',a))
+
+# b="welcome"
+# re.search('e$',b)
+# print(re.search('e$',b))
+# print(re.search('welcome',b))
+
+# phone validation number
+# import re
+# a=input('enter a number')
+# if len(a)==10 and a.isdigit() and re.search('[6-9].{9}',a):
+#     print('valid')
+# else:
+#     print('invalid')
+
+
+import re
+a=input("enter email id:")
+if re.search('[a-z].*@gmail.com',a):
+    print('valid')
+else:
+    print('invalid')
+        
+ 
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
