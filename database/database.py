@@ -83,12 +83,70 @@ con.execute("insert into student(age,name,mark)values(22,'akshay',65)")
 #         print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
 
 
-data=con.execute("delete from student where name='akshay'")
-con.commit()
-data=con.execute("select * from student")
+# data=con.execute("delete from student where name='akshay'")
+# con.commit()
+# data=con.execute("select * from student")
+# print("{:<15}{:<15}{:<15}".format("age","name","mark"))
+# for i in data:
+#         print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+
+# data=con.execute("select * from student where name like 'a%y'")
+# print("{:<15}{:<15}{:<15}".format("age","name","mark"))
+# for i in data:
+#     print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+
+# data= con.execute("select * from student order by name desc")
+# print("{:<15}{:<15}{:<15}".format("age","name","mark"))
+# for i in data:
+#     print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+
+# data=con.execute("select name, min(mark)from student group by name")
+# print("{:<15}{:<15}{:<15}".format("age","name","mark"))
+# for i in data:
+#     print(i)
+   # print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+
+# data=con.execute("select name, max(mark)from student group by name") 
+# print("{:<15}{:<15}{:<15}".format("age","name","mark"))
+# for i in data:
+#      print(i)
+     #print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+
+# data=con.execute("select name, avg(mark)from student group by name") 
+# print("{:<15}{:<15}{:<15}".format("age","name","mark"))
+# for i in data:
+#      print(i)
+    #print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+
+# data=con.execute("select name, sum(mark)from student group by name") 
+# print("{:<15}{:<15}{:<15}".format("age","name","mark"))
+# for i in data:
+#      print(i)
+    #print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+
+data=con.execute("select name, count(mark)from student group by name") 
 print("{:<15}{:<15}{:<15}".format("age","name","mark"))
 for i in data:
-        print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+     print(i)
+    #print("{:<15}{:<15}{:<15}".format(i[0],i[1],i[2]))
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
